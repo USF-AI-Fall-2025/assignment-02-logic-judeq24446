@@ -52,3 +52,5 @@ class DataInvestigator:
 df = pd.read_csv('gallstone.csv')
 di = DataInvestigator(df)
 print(di.baseline(1))
+print(di.corr(2, 3))
+print(di.zeroR(1))
